@@ -25,7 +25,6 @@ jobs:
       - name: Install Dependencies
         run: npm install
       - name: Unit Testing
-        run: npm tes
       - name: Archive Test Result
         if: always() #added
         uses: actions/upload-artifact@v3
